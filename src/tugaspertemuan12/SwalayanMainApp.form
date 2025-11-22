@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="Insert_Dialog_Stok_Barang">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Insert_jButtonOK_Stok_Barang_Stok_Barang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="Insert_JbuttonCLEAR_Stok_Barang" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Insert_Jlabel_Id_Barang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jLabel_Nama_Barang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jLabel_Jumlah_Barang_Stok_Barang" alignment="0" pref="81" max="32767" attributes="0"/>
+                              <Component id="insert_Jlabel_Harga_Beli_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Insert_jTextField_NamaBarang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jTextField_IdBarang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jTextField_JumlahBarang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jTextField_HargaBeli_StokBarang" alignment="0" pref="257" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Insert_Jlabel_Id_Barang_Stok_Barang" pref="35" max="32767" attributes="0"/>
+                      <Component id="Insert_jTextField_IdBarang_Stok_Barang" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Insert_jTextField_NamaBarang_Stok_Barang" linkSize="10" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Insert_jLabel_Nama_Barang_Stok_Barang" linkSize="10" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Insert_jTextField_JumlahBarang_Stok_Barang" linkSize="9" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Insert_jLabel_Jumlah_Barang_Stok_Barang" linkSize="9" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="insert_Jlabel_Harga_Beli_Stok_Barang" linkSize="12" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="Insert_jTextField_HargaBeli_StokBarang" linkSize="12" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Insert_jButtonOK_Stok_Barang_Stok_Barang" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="Insert_JbuttonCLEAR_Stok_Barang" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Insert_Jlabel_Id_Barang_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Insert_jLabel_Nama_Barang_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nama Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Insert_jLabel_Jumlah_Barang_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Jumlah_Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="insert_Jlabel_Harga_Beli_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Harga_Beli"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="Insert_jButtonOK_Stok_Barang_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="OK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Insert_jButtonOK_Stok_Barang_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="Insert_JbuttonCLEAR_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CLEAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Insert_JbuttonCLEAR_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Insert_jTextField_IdBarang_Stok_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Insert_jTextField_IdBarang_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Insert_jTextField_NamaBarang_Stok_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Insert_jTextField_JumlahBarang_Stok_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Insert_jTextField_HargaBeli_StokBarang">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="Update_Dialog_Stok_Barang">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Update_jButtonOK_Stok_Barang" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Update_Jlabel_Id_Barang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jLabel_Nama_Barang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jLabel_Jumlah_Barang" alignment="0" pref="81" max="32767" attributes="0"/>
+                              <Component id="Update_Jlabel_Harga_Beli" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Update_jTextField_NamaBarang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jTextField_IdBarang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jTextField_JumlahBarang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jTextField_HargaBeli_StokBarang" alignment="0" pref="257" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Update_Jlabel_Id_Barang_Stok_Barang" alignment="0" pref="35" max="32767" attributes="0"/>
+                      <Component id="Update_jTextField_IdBarang_Stok_Barang" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Update_jTextField_NamaBarang_Stok_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Update_jLabel_Nama_Barang_Stok_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Update_jTextField_JumlahBarang_Stok_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Update_jLabel_Jumlah_Barang" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Update_Jlabel_Harga_Beli" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="Update_jTextField_HargaBeli_StokBarang" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="Update_jButtonOK_Stok_Barang" min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Update_Jlabel_Id_Barang_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Update_jLabel_Nama_Barang_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nama Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Update_jLabel_Jumlah_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Jumlah_Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Update_Jlabel_Harga_Beli">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Harga_Beli"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="Update_jButtonOK_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="OK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Update_jButtonOK_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_IdBarang_Stok_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Update_jTextField_IdBarang_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_NamaBarang_Stok_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_JumlahBarang_Stok_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_HargaBeli_StokBarang">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="Delete_Dialog_Stok_Barang">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel6" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel2" max="32767" attributes="0"/>
+                              <Component id="Delete_JTextfield_Id_Barang_Stok_Barang" pref="94" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" pref="94" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" pref="94" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" pref="94" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Delete_JTextfield_Nama_Barang_Stok_Barang" pref="94" max="32767" attributes="0"/>
+                                      <Component id="jButton1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="Delete_JTextfield_Jumlah_Barang_Stok_Barang" min="-2" pref="94" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Delete_JTextfield_Harga_Beli_Stok_Barang" min="-2" pref="94" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="Cancel_jButton_Stok_Barang" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" pref="48" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Delete_JTextfield_Id_Barang_Stok_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Delete_JTextfield_Nama_Barang_Stok_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Delete_JTextfield_Jumlah_Barang_Stok_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Delete_JTextfield_Harga_Beli_Stok_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Cancel_jButton_Stok_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Id_Barang_Stok_Barang">
+          <Properties>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Text Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Id_Barang_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Nama_Barang_Stok_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Nama_Barang_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Jumlah_Barang_Stok_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Jumlah_Barang_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Harga_Beli_Stok_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Harga_Beli_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Id Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Nama Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="jumlah Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Harga Beli"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IYA"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="Cancel_jButton_Stok_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BATALKAN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Cancel_jButton_Stok_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Apakah anda yakin akan menghapus kolom ini ?"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="Insert_Dialog_Penjualan_Barang">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Insert_jButtonOK_Stok_Barang_Penjualan_Barang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="Insert_JbuttonCLEAR_Penjualan_Barang" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Insert_Jlabel_Id_Barang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jLabel_Nama_Barang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jLabel_Harga_Jual_Penjualan_Barang" alignment="0" pref="81" max="32767" attributes="0"/>
+                              <Component id="insert_Jlabel_Nomor_Rak_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Insert_jTextField_NamaBarang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jTextField_Harga_Jual_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Insert_jTextField_Nomor_Rak_Penjualan_Barang" alignment="0" pref="257" max="32767" attributes="0"/>
+                              <Component id="Insert_jComboBox_Id_Barang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Insert_Jlabel_Id_Barang_Penjualan_Barang" pref="35" max="32767" attributes="0"/>
+                      <Component id="Insert_jComboBox_Id_Barang_Penjualan_Barang" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Insert_jTextField_NamaBarang_Penjualan_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Insert_jLabel_Nama_Barang_Penjualan_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Insert_jTextField_Harga_Jual_Penjualan_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Insert_jLabel_Harga_Jual_Penjualan_Barang" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Insert_jTextField_Nomor_Rak_Penjualan_Barang" pref="35" max="32767" attributes="0"/>
+                      <Component id="insert_Jlabel_Nomor_Rak_Penjualan_Barang" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Insert_jButtonOK_Stok_Barang_Penjualan_Barang" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="Insert_JbuttonCLEAR_Penjualan_Barang" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Insert_Jlabel_Id_Barang_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Insert_jLabel_Nama_Barang_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nama Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Insert_jLabel_Harga_Jual_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Harga Jual"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="insert_Jlabel_Nomor_Rak_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nomor Rak"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="Insert_jButtonOK_Stok_Barang_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="OK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Insert_jButtonOK_Stok_Barang_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="Insert_JbuttonCLEAR_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CLEAR"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Insert_jTextField_NamaBarang_Penjualan_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Insert_jTextField_Harga_Jual_Penjualan_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Insert_jTextField_Nomor_Rak_Penjualan_Barang">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Insert_jComboBox_Id_Barang_Penjualan_Barang">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Insert_jComboBox_Id_Barang_Penjualan_BarangActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="Update_Dialog_Penjualan_Barang">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Update_jButtonOK_Penjualan_Barang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="Update_JbuttonCLEAR_Penjualan_Barang" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Update_Jlabel_Id_Barang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jLabel_Nama_Barang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jLabel_Penjualan_Barang" alignment="0" pref="81" max="32767" attributes="0"/>
+                              <Component id="Update_Jlabel_Harga_Beli_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Update_jTextField_NamaBarang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jTextField_IdBarang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jTextField_Harga_Jual_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Update_jTextField_Nomor_Rak_Penjualan_Barang" alignment="0" pref="257" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Update_Jlabel_Id_Barang_Penjualan_Barang" alignment="0" pref="35" max="32767" attributes="0"/>
+                      <Component id="Update_jTextField_IdBarang_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Update_jTextField_NamaBarang_Penjualan_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Update_jLabel_Nama_Barang_Penjualan_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Update_jTextField_Harga_Jual_Penjualan_Barang" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="Update_jLabel_Penjualan_Barang" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Update_Jlabel_Harga_Beli_Penjualan_Barang" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="Update_jTextField_Nomor_Rak_Penjualan_Barang" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Update_jButtonOK_Penjualan_Barang" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="Update_JbuttonCLEAR_Penjualan_Barang" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Update_Jlabel_Id_Barang_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Update_jLabel_Nama_Barang_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nama Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Update_jLabel_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Jumlah_Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Update_Jlabel_Harga_Beli_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Harga_Beli"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="Update_jButtonOK_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="OK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Update_jButtonOK_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="Update_JbuttonCLEAR_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CLEAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Update_JbuttonCLEAR_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_IdBarang_Penjualan_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Update_jTextField_IdBarang_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_NamaBarang_Penjualan_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_Harga_Jual_Penjualan_Barang">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Update_jTextField_Nomor_Rak_Penjualan_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Update_jTextField_Nomor_Rak_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="Delete_Dialog_Penjualan_Barang">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel11" alignment="1" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Delete_JTextfield_Id_Barang_Penjualan_Barang" alignment="0" pref="94" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" pref="94" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" pref="94" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel10" min="-2" pref="94" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Delete_JTextfield_Nama_Barang_Penjualan_Barang" alignment="0" pref="94" max="32767" attributes="0"/>
+                                      <Component id="Delete_jButton_Penjualan_Barang" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Delete_JTextfield_Harga_Jual_Penjualan_Barang" min="-2" pref="94" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Delete_JTextfield_Nomor_Rak_Penjualan_Barang" min="-2" pref="94" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="Cancel_jButton_Penjualan_Barang" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="jLabel11" min="-2" pref="48" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Delete_JTextfield_Id_Barang_Penjualan_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Delete_JTextfield_Nama_Barang_Penjualan_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Delete_JTextfield_Harga_Jual_Penjualan_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Delete_JTextfield_Nomor_Rak_Penjualan_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Delete_jButton_Penjualan_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Cancel_jButton_Penjualan_Barang" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Id_Barang_Penjualan_Barang">
+          <Properties>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Text Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Id_Barang_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Nama_Barang_Penjualan_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Nama_Barang_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Harga_Jual_Penjualan_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Harga_Jual_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Delete_JTextfield_Nomor_Rak_Penjualan_Barang">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_JTextfield_Nomor_Rak_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Id Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Nama Barang"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Harga Jual"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Nomor Rak"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="Delete_jButton_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IYA"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Delete_jButton_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="Cancel_jButton_Penjualan_Barang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BATALKAN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Cancel_jButton_Penjualan_BarangActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Apakah anda yakin akan menghapus kolom ini ?"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Container_Barang" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="66" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Container_Barang" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Alfa Slab One" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DATA BARANG SWALAYAN FAA"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="Container_Barang">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Stok Barang">
+                <Property name="tabTitle" type="java.lang.String" value="Stok Barang"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="BtnInsert" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BtnUpdate" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BtnDelete" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BtnClearAll" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="BtnUpload" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="BtnCetak" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="BtnDownload" pref="95" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="253" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="BtnUpload" alignment="1" max="32767" attributes="0"/>
+                          <Component id="BtnCetak" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="BtnUpdate" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="BtnInsert" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="BtnDelete" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="BtnClearAll" min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="BtnDownload" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="Tabel_Stok_Barang">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="ID BARANG" type="java.lang.Object"/>
+                        <Column editable="true" title="NAMA BARANG" type="java.lang.Object"/>
+                        <Column editable="true" title="JUMLAH BARANG" type="java.lang.Object"/>
+                        <Column editable="true" title="HARGA BELI" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="BtnInsert">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Insert"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnInsertActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnUpdate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnUpdateActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnDelete">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnDeleteActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnClearAll">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear all"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnClearAllActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnUpload">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Upload"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnUploadActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnCetak">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cetak"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnCetakActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnDownload">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Download"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnDownloadActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Penjualan barang">
+                <Property name="tabTitle" type="java.lang.String" value="Penjualan barang"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="BtnInsert2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BtnUpdate2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BtnDelete2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BtnClearAll2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="BtnUpload1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="BtnCetak2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="BtnDownload2" pref="95" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="253" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="BtnUpdate2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="BtnInsert2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="BtnDelete2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="BtnClearAll2" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="BtnUpload1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="BtnCetak2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="BtnDownload2" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="Tabel_Penjualan_Barang">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="ID BARANG" type="java.lang.Object"/>
+                        <Column editable="true" title="NAMA BARANG" type="java.lang.Object"/>
+                        <Column editable="true" title="HARGA JUAL" type="java.lang.Object"/>
+                        <Column editable="true" title="NOMOR RAK" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="BtnInsert2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Insert"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnInsert2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnUpdate2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnUpdate2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnDelete2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnDelete2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnClearAll2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear all"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnClearAll2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnCetak2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cetak"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnCetak2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnUpload1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Upload"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnUpload1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="BtnDownload2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Donwload"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnDownload2ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

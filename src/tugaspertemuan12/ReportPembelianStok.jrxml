@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5d556462-45e5-492b-aa50-a10277902889">
+	<property name="ireport.zoom" value="1.2100000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="13"/>
+	<queryString language="SQL">
+		<![CDATA[select * from pembelian_stok_barang order by id_barang]]>
+	</queryString>
+	<field name="idBarang" class="java.lang.String"/>
+	<field name="namaBarang" class="java.lang.String"/>
+	<field name="jumlahBeli" class="java.lang.Integer"/>
+	<field name="hargaBeli" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="64" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="59" uuid="07843b33-b6ba-4a09-8ac1-34590e1e2354"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="20" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[TOKO FAA MAJU JAYA ABADI
+LAPORAN DATA PEMBELIAN STOK BARANG
+]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="57" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="138" height="30" uuid="7c873a30-c5a2-4ede-8db3-42fbbadc96e9"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="138" y="0" width="149" height="30" uuid="7d67482e-184b-4e76-939a-025f0c6582b6"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="287" y="0" width="142" height="30" uuid="7b786a8b-bfa0-4808-b40a-313b327188f4"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="429" y="0" width="126" height="30" uuid="91bbabda-a6a6-4f17-a1a5-c50f3dfe4b63"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="138" height="30" uuid="9d0b5d11-041f-4342-9ebe-395db879877a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID BARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="138" y="0" width="149" height="30" uuid="8d49e0b1-fc93-4a74-8f98-ae12d140e82f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAMA BARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="287" y="0" width="142" height="30" uuid="86323555-18a9-4f8e-8d9b-4a35de411dd9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JUMLAH BELI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="429" y="0" width="126" height="30" uuid="91e52ac2-98b2-4e5e-9c1e-c6fd2b81730f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HARGA BELI]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="138" height="31" uuid="00505a6c-9f49-47fb-86df-8cadb45c9aae"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="138" y="0" width="149" height="31" uuid="ba95d797-a630-4d1d-9d07-9352c8d56265"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="287" y="0" width="142" height="31" uuid="10699b19-fdfd-4e16-9de9-c0482e70a7b8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="429" y="0" width="126" height="31" uuid="173eb4f0-dcdf-41f6-bdf2-d4c040f090b3"/>
+			</rectangle>
+			<textField>
+				<reportElement x="148" y="0" width="139" height="31" uuid="a092c294-78ad-4bd1-8144-cd005918fc40"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{namaBarang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="298" y="0" width="131" height="31" uuid="796d0a22-3675-46f9-b1ff-51064ab26333"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jumlahBeli}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="441" y="0" width="114" height="31" uuid="44e1dedf-15a3-4a36-96e1-7632fbaaf28f"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Rp " + $F{hargaBeli}.setScale(2, java.math.RoundingMode.HALF_UP)
+        .toPlainString()
+        .replaceAll("\\B(?=(\\d{3})+(?!\\d))", ".")
+        .replaceFirst("(\\.)(\\d{2})$", ",$2")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="0" width="128" height="31" uuid="4f8ca278-0045-4d2a-8f2f-2d6c43c83b21"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{idBarang}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
